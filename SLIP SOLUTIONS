@@ -1,1 +1,36 @@
+//slip 5 q1
 
+
+#include<iostream>
+
+using namespace std;
+
+class point
+{
+	public:
+	 int x,y;
+	 
+	 int getdata(int a,int b)
+	 {
+	 	x=a;
+	 	y=b;
+	 }
+	 
+	 int showdata()
+	 {
+	 	cout<<"vlaue of a and b is : "<<x<<" and "<<y;
+	 }
+	
+	
+};
+
+int main()
+{
+	
+	point p;
+	p.getdata(30,20);
+	p.showdata();
+	
+	return 0; 
+	
+}
